@@ -5,8 +5,9 @@ import CreateBooks from './pages/ListBooks';
 import ShowBook from './pages/ShowBook';
 import EditBook from './pages/EditBook';
 import DeleteBook from './pages/DeleteBook';
-import Login from './pages/Login.jsx';
-import SignUp from './pages/SignUp.jsx';
+import SignUp from './pages/Signup';
+import Login from './pages/login';
+
 
 function App() {
   return (

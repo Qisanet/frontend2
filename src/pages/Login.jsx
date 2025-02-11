@@ -46,7 +46,7 @@ const Login = () => {
         </div>
         <button className='btn btn-primary mx-4 my-2 p-2' style={{width:300}} onClick={handleLogin}>signin</button>
         <div>
-          <p className='mx-4'>Don't have an account <Link to='/signup'>Sign up</Link></p>
+          <p className='mx-4'>Do not have an account <Link to='/signup'>Sign up</Link></p>
         </div>
       </div>
     </div>
