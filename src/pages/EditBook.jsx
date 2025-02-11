@@ -16,7 +16,7 @@ const EditBook = () => {
   useEffect(() => {
     // Fetch the existing book details
     axios
-      .get(`https://as1backend.onrender.com/books/${id}`, {
+      .get(`https://backend-loaw.onrender.com/books/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`, // Include token in headers
         },
